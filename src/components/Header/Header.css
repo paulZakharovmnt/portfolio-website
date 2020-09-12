@@ -83,15 +83,3 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
-
-/*ДЛЯ ВЫЛЕЗАЮЩЕГО МЕНЮЮЮЮЮЮЮЮ*/
-
-/* .show {
-  left: 0;
-} */
-
-/* ПОХОДУ к NAV_MENU добавляется хрень эта*/
-
-.activate {
-  color: var(--text-color);
-}
