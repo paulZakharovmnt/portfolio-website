@@ -25,6 +25,11 @@ const SideMenu = ({ toggleShowSideMenuClick }) => {
           </a>
         </li>
         <li className="nav_item">
+          <a href="#education" className="nav_link activate">
+            Education
+          </a>
+        </li>
+        <li className="nav_item">
           <a href="#services" className="nav_link activate">
             Services
           </a>
