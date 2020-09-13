@@ -12,7 +12,7 @@ const Footer = () => {
             <i className="fab fa-facebook"></i>
           </a>
           <a href="#" className="footer_link">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <p className="footer_copy">All right Recieved - 2020</p>

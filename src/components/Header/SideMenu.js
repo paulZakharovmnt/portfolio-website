@@ -1,45 +1,26 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const SideMenu = ({ toggleShowSideMenuClick }) => {
+const SideMenu = ({ listOfLinks, toggleShowSideMenuClick }) => {
   return (
-    <div className="nav_menu">
-      {/* <div className="nav_close">
-        <FontAwesomeIcon icon={faTimes} onClick={toggleShowSideMenuClick} />
-      </div> */}
-      <ul className="nav_list">
-        <li className="nav_item">
-          <a href="#home" className="nav_link">
-            Home
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#about" className="nav_link">
-            About
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#skills" className="nav_link">
-            Skills
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#education" className="nav_link">
-            Education
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#works" className="nav_link">
-            Works
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#contact" className="nav_link">
-            Contact
-          </a>
-        </li>
-      </ul>
+    <div className="drop-menu">
+      <div className="nav_menu">
+        <ul className="nav_list">
+          {listOfLinks.map((link) => {
+            let hrefLink = `#${link}`;
+            return (
+              <li
+                className="nav_item"
+                key={link}
+                onClick={toggleShowSideMenuClick}
+              >
+                <a className="nav_link" href={hrefLink}>
+                  {link}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };

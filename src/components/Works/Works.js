@@ -13,7 +13,7 @@ const Works = () => {
           <img src={work1} alt="" />
           <div className="works_data">
             <a href="#" className="works_link">
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
             <span className="works_title"> Simple Weather Application</span>
           </div>

@@ -7,6 +7,14 @@ import Toggler from "./Toggler";
 
 const Header = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
+  const [listOfLinks, setListOfLinks] = useState([
+    "home",
+    "about",
+    "skills",
+    "education",
+    "works",
+    "contact",
+  ]);
 
   const toggleShowSideMenuClick = () => {
     setShowSideMenu(!showSideMenu);
@@ -28,7 +36,10 @@ const Header = () => {
           </a>
         </div>
         {showSideMenu && (
-          <SideMenu toggleShowSideMenuClick={toggleShowSideMenuClick} />
+          <SideMenu
+            listOfLinks={listOfLinks}
+            toggleShowSideMenuClick={toggleShowSideMenuClick}
+          />
         )}
       </div>
     </section>
