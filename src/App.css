@@ -6,7 +6,7 @@
   --font-semi-bold: 600;
   --font-bold: 700;
 
-  --first-color: #cc4b2c;
+  --first-color: #fff;
   --first-color-dark: #662616;
   --first-color-darken: #290f09;
   --text-color: #54423d;
@@ -59,8 +59,9 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--first-color-lighten);
-  color: var(--text-color);
+  background-color: #272838;
+  /* background-color: var(--first-color-lighten); */
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -87,7 +88,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: #fff;
   margin-bottom: var(--mb-3);
   text-align: center;
 }
@@ -95,7 +96,7 @@ img {
 .section-subtitle {
   display: block;
   font-size: var(--small-font-size);
-  color: var(--first-color-darken);
+  color: #fff;
   text-align: center;
   font-weight: var(--font-bold);
   margin-bottom: 0.25rem;

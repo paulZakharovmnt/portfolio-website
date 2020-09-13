@@ -18,11 +18,12 @@
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
+  /* background-image: url("../../img/photo2.png"); */
 }
 
-.home_img img {
-  width: 155px;
-}
+/* .home_img img {
+  width: 100%;
+} */
 
 .home_title {
   font-size: var(--h1-font-size);
@@ -32,7 +33,7 @@
 
 .home_profession {
   font-size: var(--small-font-size);
-  color: var(--first-color-dark);
+  color: #fff;
   margin-bottom: var(--mb-5);
 }
 
@@ -41,21 +42,46 @@
 }
 
 .home_social-link {
-  display: inline-flex;
-  background-color: var(--first-color);
-  color: var(--first-color-lighten);
-  font-size: 1.1rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: #272838;
   border-radius: 50%;
-  padding: 0.4rem;
-  margin: 0 var(--mb-1);
-  transition: 0.3s;
+  font-size: 30px;
+  color: #666;
+  transition: 0.5s;
+}
+
+.home_social-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home_social-link:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
 }
 
 .home_social-link:hover {
-  background-color: var(--first-color-dark);
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
 }
 
-.home_button {
+/* .home_button {
   width: 100%;
 }
 
@@ -78,4 +104,49 @@
 }
 .button_light:hover {
   color: var(--first-color-lighten);
+} */
+
+.btn {
+  text-decoration: none;
+  color: #ffef10d5;
+  border: 3px solid #ffef10d5;
+  padding: 0.6rem 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-style: solid;
+  border-color: #ffef10d5;
+  transition: all 0.5s;
+}
+
+.btn::before {
+  top: -1rem;
+  left: -1rem;
+  border-width: 3px 0 0 3px;
+}
+.btn::after {
+  bottom: -1rem;
+  right: -1rem;
+  border-width: 0 3px 3px 0;
+}
+
+.btn:hover::before,
+.btn:hover::after {
+  width: calc(100% + 2rem);
+  height: calc(100% + 2rem);
+  border-color: #fff;
+}
+
+.btn:hover {
+  color: #272838;
+  background-color: #fff;
+  border-color: #fff;
 }

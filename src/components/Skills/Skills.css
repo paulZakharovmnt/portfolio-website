@@ -2,9 +2,16 @@
   row-gap: 2rem;
 }
 
+.skills_name {
+  color: #fff;
+}
+.skills_number {
+  color: #fff;
+}
+
 .skills_subtitle {
   font-size: var(--h3-font-size);
-  color: var(--first-color-dark);
+  color: #fff;
   margin-bottom: var(--mb-2);
 }
 
@@ -24,7 +31,7 @@
   position: absolute;
   bottom: -0.75rem;
   height: 0.25rem;
-  background-color: var(--first-color);
+  background-color: #1fe8b6;
 }
 
 .skills_html {

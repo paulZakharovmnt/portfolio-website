@@ -1,4 +1,5 @@
 import React from "react";
+import photo2 from "../../img/photo2.png";
 import "./Main.css";
 
 const Main = () => {
@@ -8,8 +9,7 @@ const Main = () => {
         <div className="home_container bd-grid">
           <div className="home_data">
             <div className="home_img">
-              Here should be my Photo
-              {/* <img src={image} alt="" /> */}
+              <img src={photo2} alt="" />
             </div>
             <h1 className="home_title">Paul Zakharov</h1>
             <span className="home_profession">FrontEnd Developer</span>
@@ -27,7 +27,11 @@ const Main = () => {
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
-            <a download="" href="#" className="button home_button">
+            <a
+              download=""
+              href="https://drive.google.com/u/0/uc?id=1CgyZPeIh6zoY19ATw2nMVW956s5tv_VR&export=download"
+              className="btn home_button"
+            >
               Download Resume
             </a>
           </div>

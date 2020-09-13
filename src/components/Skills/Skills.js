@@ -9,7 +9,6 @@ const Skills = () => {
 
       <div className="skills_contatiner bd-grid">
         <div className="skills_content">
-          <h3 className="skills_subtitle"> Frontend</h3>
           <div className="skills_data">
             <span className="skills_name">React.js </span>
             <span className="skills_number">80% </span>

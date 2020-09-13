@@ -10,37 +10,32 @@ const SideMenu = ({ toggleShowSideMenuClick }) => {
       </div> */}
       <ul className="nav_list">
         <li className="nav_item">
-          <a href="#home" className="nav_link activate">
+          <a href="#home" className="nav_link">
             Home
           </a>
         </li>
         <li className="nav_item">
-          <a href="#about" className="nav_link activate">
+          <a href="#about" className="nav_link">
             About
           </a>
         </li>
         <li className="nav_item">
-          <a href="#skills" className="nav_link activate">
+          <a href="#skills" className="nav_link">
             Skills
           </a>
         </li>
         <li className="nav_item">
-          <a href="#education" className="nav_link activate">
+          <a href="#education" className="nav_link">
             Education
           </a>
         </li>
         <li className="nav_item">
-          <a href="#services" className="nav_link activate">
-            Services
-          </a>
-        </li>
-        <li className="nav_item">
-          <a href="#works" className="nav_link activate">
+          <a href="#works" className="nav_link">
             Works
           </a>
         </li>
         <li className="nav_item">
-          <a href="#contact" className="nav_link activate">
+          <a href="#contact" className="nav_link">
             Contact
           </a>
         </li>
