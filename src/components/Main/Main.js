@@ -2,14 +2,21 @@ import React from "react";
 import photo2 from "../../img/photo2.png";
 import "./Main.css";
 
-const Main = () => {
+const Main = ({ handleShowMessaheClick }) => {
   return (
     <section className="main">
       <div className="home" id="home">
         <div className="home_container bd-grid">
           <div className="home_data">
+            <a
+              href="#"
+              className="flashing-icon"
+              onClick={handleShowMessaheClick}
+            >
+              <i className="fas fa-info-circle"></i>
+            </a>
             <div className="home_img">
-              <img src={photo2} alt="" />
+              <img className="home_img" src={photo2} alt="" />
             </div>
             <h1 className="home_title">Paul Zakharov</h1>
             <span className="home_profession">FrontEnd Developer</span>

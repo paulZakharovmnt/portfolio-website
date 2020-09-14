@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
-import SideMenu from "./SideMenu";
+import SideMenu from "./SideMenu/SideMenu";
 import Toggler from "./Toggler";
+import TopMenu from "./TopMenu/TopMenu";
 
 const Header = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
@@ -30,6 +29,7 @@ const Header = () => {
           />
           {/* <FontAwesomeIcon icon={faBars} onClick={toggleShowSideMenuClick} /> */}
         </div>
+        <TopMenu listOfLinks={listOfLinks} />
         <div className="">
           <a href="#" className="nav_logo">
             Paul

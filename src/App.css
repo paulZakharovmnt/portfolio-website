@@ -13,7 +13,7 @@
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
 
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Kufam", cursive;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -110,4 +110,68 @@ img {
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+}
+
+@media screen and (min-width: 768px) {
+  .about_container,
+  .skills_container,
+  .services_container,
+  .works_container,
+  .contact_container,
+  .contact_inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_data {
+    text-align: initial;
+  }
+
+  .about_description {
+    margin-bottom: var(--mb-5);
+  }
+
+  .about_img {
+    width: 220px;
+  }
+  .about_information {
+    padding-left: 4rem;
+  }
+
+  .education_time {
+    padding: 0 2rem;
+  }
+
+  .contact_inputs {
+    display: grid;
+    column-gap: 1.5rem;
+  }
+
+  .contact_info {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    width: 0;
+  }
+
+  .home_container {
+    height: 100vh;
+  }
+
+  .section {
+    padding: 3rem 0 2rem;
+  }
+
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .servicies_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

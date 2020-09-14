@@ -12,10 +12,15 @@ const Works = () => {
         <div className="works_img">
           <img src={work1} alt="" />
           <div className="works_data">
-            <a href="#" className="works_link">
-              <i className="fas fa-external-link-alt"></i>
-            </a>
-            <span className="works_title"> Simple Weather Application</span>
+            <div className="works-project-info">
+              <div className="works_title">
+                <h3>Simple Weather Application</h3>
+                <span> Description</span>
+              </div>
+              <a href="#" className="works_link">
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,21 @@
+.black-back {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1500;
+}
+
+.message-container {
+  width: 70%;
+  background-color: rgba(148, 146, 146, 0.9);
+  padding: 15px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #ffef10d5;
+  border-radius: 10px;
+  text-align: center;
+}

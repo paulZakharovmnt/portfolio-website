@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -9,12 +9,21 @@ import Education from "./components/Education/Education";
 import Works from "./components/Works/Works";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import InfoMessage from "./components/InfoMessage/InfoMessage";
 
 function App() {
+  const [showInfoMessage, setShowInfoMessage] = useState(false);
+
+  const handleShowMessaheClick = () => {
+    setShowInfoMessage(!showInfoMessage);
+  };
   return (
     <div className="App">
+      {showInfoMessage && (
+        <InfoMessage handleShowMessaheClick={handleShowMessaheClick} />
+      )}
       <Header />
-      <Main />
+      <Main handleShowMessaheClick={handleShowMessaheClick} />
       <About />
       <Skills />
       <Education />
