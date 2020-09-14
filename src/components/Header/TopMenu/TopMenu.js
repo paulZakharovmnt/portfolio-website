@@ -6,9 +6,12 @@ const TopMenu = ({ listOfLinks }) => {
     <div className="top-menu">
       <ul>
         {listOfLinks.map((link) => {
+          let hrefLink = `#${link}`;
           return (
             <li className="top-menu-item" key={link}>
-              <a className="top-menu-link">{link}</a>
+              <a className="top-menu-link" href={hrefLink}>
+                {link}
+              </a>
             </li>
           );
         })}

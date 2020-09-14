@@ -8,26 +8,20 @@ const Footer = () => {
         <h1> Paul Zakharov </h1>
         <p>I'm so cool</p>
         <div className="footer-icons">
-          <a className="footer-link">
+          <a
+            className="footer-link"
+            href="https://www.facebook.com/profile.php?id=100004351425520"
+          >
             <i className="fab fa-facebook"></i>
           </a>
-          <a className="footer-link">
+          <a
+            className="footer-link"
+            href="https://www.instagram.com/supersexykoala/"
+          >
             <i className="fab fa-instagram"></i>
           </a>
         </div>
         <p className="footer-copy"> All right Recieved - 2020 </p>
-
-        {/* <h1 className="fooer_title">Paul</h1>
-        <p className="footer_description"> bla bla bla </p>
-        <div className="footer_social">
-          <a href="#" className="footer_link">
-            <i className="fab fa-facebook"></i>
-          </a>
-          <a href="#" className="footer_link">
-            <i className="fab fa-instagram"></i>
-          </a>
-        </div>
-        <p className="footer_copy">All right Recieved - 2020</p> */}
       </div>
     </section>
   );

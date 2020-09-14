@@ -8,30 +8,32 @@ const Main = ({ handleShowMessaheClick }) => {
       <div className="home" id="home">
         <div className="home_container bd-grid">
           <div className="home_data">
-            <a
-              href="#"
-              className="flashing-icon"
-              onClick={handleShowMessaheClick}
-            >
+            <div className="flashing-icon" onClick={handleShowMessaheClick}>
               <i className="fas fa-info-circle"></i>
-            </a>
+            </div>
             <div className="home_img">
               <img className="home_img" src={photo2} alt="" />
             </div>
             <h1 className="home_title">Paul Zakharov</h1>
             <span className="home_profession">FrontEnd Developer</span>
             <div className="home_social">
-              <a href="#" className="home_social-link">
+              <a
+                href="https://www.linkedin.com/in/paulzakharov/"
+                className="home_social-link"
+              >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" className="home_social-link">
+              <a
+                href="https://www.facebook.com/profile.php?id=100004351425520"
+                className="home_social-link"
+              >
                 <i className="fab fa-facebook"></i>
               </a>
-              <a href="#" className="home_social-link">
+              <a
+                href="https://github.com/paulZakharovmnt"
+                className="home_social-link"
+              >
                 <i className="fab fa-github"></i>
-              </a>
-              <a href="#" className="home_social-link">
-                <i className="fab fa-instagram"></i>
               </a>
             </div>
             <a
