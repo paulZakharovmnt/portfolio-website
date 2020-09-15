@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import SideMenu from "./SideMenu/SideMenu";
+import { Transition, CSSTransition } from "react-transition-group";
 import Toggler from "./Toggler";
 import TopMenu from "./TopMenu/TopMenu";
 
@@ -27,7 +28,6 @@ const Header = () => {
             toggleShowSideMenuClick={toggleShowSideMenuClick}
             showSideMenu={showSideMenu}
           />
-          {/* <FontAwesomeIcon icon={faBars} onClick={toggleShowSideMenuClick} /> */}
         </div>
         <TopMenu listOfLinks={listOfLinks} />
         <div className="">
@@ -35,12 +35,18 @@ const Header = () => {
             Paul
           </a>
         </div>
-        {showSideMenu && (
+        <CSSTransition
+          in={showSideMenu}
+          timeout={650}
+          mountOnEnter
+          unmountOnExit
+          classNames="side-menu"
+        >
           <SideMenu
             listOfLinks={listOfLinks}
             toggleShowSideMenuClick={toggleShowSideMenuClick}
           />
-        )}
+        </CSSTransition>
       </div>
     </section>
   );

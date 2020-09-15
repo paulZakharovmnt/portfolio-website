@@ -116,3 +116,25 @@ ul {
   transform: scaleY(1);
   opacity: 1;
 }
+
+/* Side Menu Animation*/
+
+.side-menu-enter {
+  transform: translateX(-100%);
+}
+.side-menu-enter-active {
+  transform: translateX(0);
+  transition: all 650ms ease-out;
+}
+
+.side-menu-exit {
+  transform: translateX(0);
+}
+
+.side-menu-exit-active {
+  transform: translateX(-100%);
+  transition: all 650ms ease-out;
+}
+
+.side-menu-exit-done {
+}
