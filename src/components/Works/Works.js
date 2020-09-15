@@ -43,7 +43,10 @@ const Works = () => {
                   Fully made with React Hooks and using different APIs
                 </span>
               </div>
-              <a href="#" className="works_link">
+              <a
+                href="https://paulzakharovmnt.github.io/weatherApp/"
+                className="works_link"
+              >
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -66,7 +69,10 @@ const Works = () => {
                   styles and interesting features. Will be finished soon
                 </span>
               </div>
-              <a href="#" className="works_link">
+              <a
+                href="https://paulzakharovmnt.github.io/todo-app/"
+                className="works_link"
+              >
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
