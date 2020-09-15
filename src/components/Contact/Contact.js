@@ -22,17 +22,14 @@ const Contact = () => {
           <div className="contact_info">
             <h3 className="contact_subtitle">Call Me</h3>
             <span className="contact_text">438-530-1015 </span>
-            <span className="contact_text">438-530-1015</span>
           </div>
           <div className="contact_info">
             <h3 className="contact_subtitle">Email Me</h3>
             <span className="contact_text">paulZakharov.mnt@gmail.com</span>
-            <span className="contact_text">paulZakharov.mnt@gmail.com</span>
           </div>
           <div className="contact_info">
             <h3 className="contact_subtitle">Location</h3>
-            <span className="contact_text">438-530-1015</span>
-            <span className="contact_text">438-530-1015</span>
+            <span className="contact_text">Monteral, Quebec, Canada</span>
           </div>
         </div>
       </div>

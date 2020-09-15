@@ -1,4 +1,5 @@
 import React from "react";
+import me2 from "../../img/me2.jpg";
 import "./About.css";
 
 const About = () => {
@@ -9,9 +10,13 @@ const About = () => {
 
       <div className="about_container bd-grid">
         <div className="about_data">
-          <p className="about_description">I'm ....blablabla</p>
-          One More my Photo
-          {/* <img src={aboutImg} alt="" className="about_img" /> */}
+          <p className="about_description">
+            Hi! My name is Paul and I'm Frontend Developer. I have 2 years of
+            experience in web development. In all my projects I was using the
+            most popular framework - React.js. Now I'm looking for a job in
+            Montreal{" "}
+          </p>
+          <img src={me2} alt="" className="about_img" />
         </div>
 
         <div>
@@ -21,6 +26,11 @@ const About = () => {
             <div className="about_information-data">
               <i className="fas fa-user about_information-icon"></i>
               <span>Paul Zakharov</span>
+            </div>
+
+            <div className="about_information-data">
+              <i className="fas fa-map-marker-alt about_information-icon"></i>
+              <span>Montréal, Québec</span>
             </div>
 
             <div className="about_information-data">
@@ -35,7 +45,7 @@ const About = () => {
           </div>
 
           <div className="about_information">
-            <h3 className="about_information-title">Experience and support</h3>
+            <h3 className="about_information-title">Experience</h3>
 
             <div className="about_information-data">
               <i className="fas fa-info-circle about_information-icon"></i>
@@ -51,20 +61,23 @@ const About = () => {
               <i className="fas fa-briefcase about_information-icon"></i>
               <div>
                 <span className="about_information-subtitle">
-                  Different Projects
+                  React.js and Hooks
                 </span>
                 <span className="about_information-subtitle-small">
-                  Completed
+                  The most modern and popular JS framework
                 </span>
               </div>
             </div>
 
             <div className="about_information-data">
-              <i className="fas fa-question-circle about_information-icon"></i>
+              <i className="fas fa-lightbulb about_information-icon"></i>
               <div>
-                <span className="about_information-subtitle">Support</span>
+                <span className="about_information-subtitle">
+                  Fast-Learner{" "}
+                </span>
                 <span className="about_information-subtitle-small">
-                  Online 24/7
+                  Super-fast-learner. I'm learning new things faster than you
+                  can imagine
                 </span>
               </div>
             </div>

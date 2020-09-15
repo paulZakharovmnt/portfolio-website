@@ -6,11 +6,11 @@ const Footer = () => {
     <section className="footer section">
       <div className="footer_container bd-grid">
         <h1> Paul Zakharov </h1>
-        <p>I'm so cool</p>
+        <p>I am Paul and this is my personal website. Have fun!</p>
         <div className="footer-icons">
           <a
             className="footer-link"
-            href="https://www.facebook.com/profile.php?id=100004351425520"
+            href="https://www.facebook.com/people/Paul-Zakharov/100004351425520"
           >
             <i className="fab fa-facebook"></i>
           </a>

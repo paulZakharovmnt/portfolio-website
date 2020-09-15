@@ -24,7 +24,7 @@ const Main = ({ handleShowMessaheClick }) => {
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=100004351425520"
+                href="https://www.facebook.com/people/Paul-Zakharov/100004351425520"
                 className="home_social-link"
               >
                 <i className="fab fa-facebook"></i>
