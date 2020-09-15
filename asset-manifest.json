@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.f0a08c03.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.c1179668.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.c1179668.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.8cd05721.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.8cd05721.js.map",
+    "static/js/2.9fbe5dd6.chunk.js": "/portfolio-website/static/js/2.9fbe5dd6.chunk.js",
+    "static/js/2.9fbe5dd6.chunk.js.map": "/portfolio-website/static/js/2.9fbe5dd6.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.9d01f88d3e6ae531f49fe200c71691da.js": "/portfolio-website/precache-manifest.9d01f88d3e6ae531f49fe200c71691da.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.f0a08c03.chunk.css.map": "/portfolio-website/static/css/main.f0a08c03.chunk.css.map",
+    "static/js/2.9fbe5dd6.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.9fbe5dd6.chunk.js.LICENSE.txt",
+    "static/media/Portfolio.jpg": "/portfolio-website/static/media/Portfolio.e3d8755d.jpg",
+    "static/media/WeatherApp.jpg": "/portfolio-website/static/media/WeatherApp.ea604922.jpg",
+    "static/media/me2.jpg": "/portfolio-website/static/media/me2.5c3a9601.jpg",
+    "static/media/photo2.png": "/portfolio-website/static/media/photo2.900bf4c3.png",
+    "static/media/work4.jpg": "/portfolio-website/static/media/work4.09b0176f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cd05721.js",
+    "static/js/2.9fbe5dd6.chunk.js",
+    "static/css/main.f0a08c03.chunk.css",
+    "static/js/main.c1179668.chunk.js"
+  ]
+}
