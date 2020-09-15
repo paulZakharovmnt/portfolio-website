@@ -9,17 +9,39 @@ import Works from "./components/Works/Works";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import InfoMessage from "./components/InfoMessage/InfoMessage";
+import MessageHasBeenSent from "./components/PopUp/MessageHasBeenSent";
 
 function App() {
   const [showInfoMessage, setShowInfoMessage] = useState(false);
+  const [showUserSentAMessageToPaul, setshowUserSentAMessageToPaul] = useState(
+    false
+  );
 
   const handleShowMessaheClick = () => {
     setShowInfoMessage(!showInfoMessage);
   };
+
+  const handleHideMessageThatWasSentToPaul = () => {
+    setshowUserSentAMessageToPaul(false);
+  };
+
+  const handleSendMessageToPaulFromUser = (messageFromUser) => {
+    setshowUserSentAMessageToPaul(true);
+    console.log(messageFromUser);
+  };
+
   return (
     <div className="App">
       {showInfoMessage && (
         <InfoMessage handleShowMessaheClick={handleShowMessaheClick} />
+      )}
+
+      {showUserSentAMessageToPaul && (
+        <MessageHasBeenSent
+          handleHideMessageThatWasSentToPaul={
+            handleHideMessageThatWasSentToPaul
+          }
+        />
       )}
       <Header />
       <Main handleShowMessaheClick={handleShowMessaheClick} />
@@ -27,7 +49,9 @@ function App() {
       <Skills />
       <Education />
       <Works />
-      <Contact />
+      <Contact
+        handleSendMessageToPaulFromUser={handleSendMessageToPaulFromUser}
+      />
       <Footer />
     </div>
   );

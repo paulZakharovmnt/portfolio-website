@@ -1,21 +1,63 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = ({ handleSendMessageToPaulFromUser }) => {
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  const [userMessage, setUserMessage] = useState("");
+
+  const submitMessageFromUser = (event) => {
+    event.preventDefault();
+    let messageFromUser = {
+      name: userName,
+      email: userEmail,
+      message: userMessage,
+    };
+    handleSendMessageToPaulFromUser(messageFromUser);
+
+    setUserMessage("");
+    setUserEmail("");
+    setUserName("");
+  };
+
   return (
     <section className="contact section" id="contact">
       <span className="section-subtitle">Contact Me</span>
       <h2 className="section-title">Get In Touch</h2>
 
       <div className="contact_container bd-grid">
-        <form className="form">
+        <form className="form" onSubmit={submitMessageFromUser}>
           <div className="inputs">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
+            <input
+              type="text"
+              placeholder="Name"
+              value={userName}
+              onChange={(event) => setUserName(event.target.value)}
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              value={userEmail}
+              onChange={(event) => setUserEmail(event.target.value)}
+            />
           </div>
-          <textarea name="" id="" cols="0" rows="10" placeholder="Message" />
+          <textarea
+            name=""
+            id=""
+            cols="0"
+            rows="10"
+            placeholder="Message"
+            value={userMessage}
+            onChange={(event) => setUserMessage(event.target.value)}
+          />
           <div className="submit-btn">
-            <a className="button contact_button"> Send a Message </a>
+            <a
+              className="button contact_button"
+              onClick={submitMessageFromUser}
+            >
+              {" "}
+              Send a Message{" "}
+            </a>
           </div>
         </form>
         <div>
