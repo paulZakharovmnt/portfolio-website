@@ -81,6 +81,19 @@ const About = () => {
                 </span>
               </div>
             </div>
+
+            <div className="about_information-data">
+              <i className="fas fa-language about_information-icon"></i>
+              <div>
+                <span className="about_information-subtitle">
+                  My Languages{" "}
+                </span>
+                <span className="about_information-subtitle-small">
+                  Russian - native. English - fluent, French - writing and
+                  reading.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

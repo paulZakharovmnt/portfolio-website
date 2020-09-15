@@ -28,12 +28,18 @@
 }
 
 .works-project-info {
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+.works_title {
+  height: 100%;
+  font-size: 12px;
 }
 
 .works_link {
@@ -45,4 +51,11 @@
 .works_img:hover .works_data {
   bottom: 0;
   border: 0.5px solid #ffef10a8;
+}
+
+@media (min-width: 768px) {
+  .works_title {
+    font-size: 14px;
+    align-items: center;
+  }
 }
