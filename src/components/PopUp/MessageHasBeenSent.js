@@ -9,7 +9,12 @@ const MessageHasBeenSent = ({ handleHideMessageThatWasSentToPaul }) => {
           Your message has been sent to Paul Zakharov! He will give you a
           feedback as soon as possible.
         </p>
-        <button onClick={handleHideMessageThatWasSentToPaul}> Close </button>
+        <div
+          className="top-menu-link"
+          onClick={handleHideMessageThatWasSentToPaul}
+        >
+          Close
+        </div>
       </div>
     </div>
   );

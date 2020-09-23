@@ -60,7 +60,6 @@ body {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   background-color: #272838;
-  /* background-color: var(--first-color-lighten); */
   color: #fff;
   line-height: 1.6;
 }
