@@ -1,19 +1,27 @@
 import React, { useState } from "react";
+import sendEmail from "../../API/sendEmail";
 import "./Contact.css";
 
 const Contact = ({ handleSendMessageToPaulFromUser }) => {
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
+  const [showUserSentAMessageToPaul, setshowUserSentAMessageToPaul] = useState(
+    false
+  );
 
-  const submitMessageFromUser = (event) => {
+  const submitMessageFromUser = async (event) => {
     event.preventDefault();
-    let messageFromUser = {
-      name: userName,
-      email: userEmail,
-      message: userMessage,
-    };
-    handleSendMessageToPaulFromUser(messageFromUser);
+
+    await sendEmail(userName, userEmail, userMessage).then(
+      (result) => {
+        console.log(result.text);
+        handleSendMessageToPaulFromUser(userName);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
 
     setUserMessage("");
     setUserEmail("");

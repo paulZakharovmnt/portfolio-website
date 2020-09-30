@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import "./Header.css";
 import SideMenu from "./SideMenu/SideMenu";
-import { Transition, CSSTransition } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 import Toggler from "./Toggler";
 import TopMenu from "./TopMenu/TopMenu";
 
 const Header = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
-  const [listOfLinks, setListOfLinks] = useState([
+  const listOfLinks = [
     "home",
     "about",
     "skills",
     "education",
     "works",
     "contact",
-  ]);
+  ];
 
   const toggleShowSideMenuClick = () => {
     setShowSideMenu(!showSideMenu);

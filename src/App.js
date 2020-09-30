@@ -25,9 +25,8 @@ function App() {
     setshowUserSentAMessageToPaul(false);
   };
 
-  const handleSendMessageToPaulFromUser = (messageFromUser) => {
+  const handleSendMessageToPaulFromUser = (userName) => {
     setshowUserSentAMessageToPaul(true);
-    console.log(messageFromUser);
   };
 
   return (
