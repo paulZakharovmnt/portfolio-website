@@ -16,8 +16,8 @@ const sendEmail = async (userName, userEmail, userMessage) => {
   return await emailjs.send(
     api.serviceKey,
     api.templateKey,
-    messageFromUser,
-    api.userId
+    messageFromUser
+    // api.userId
   );
 };
 

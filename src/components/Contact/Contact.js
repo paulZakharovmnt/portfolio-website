@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import sendEmail from "../../API/sendEmail";
+import MessageHasBeenSent from "../PopUp/MessageHasBeenSent";
 import "./Contact.css";
 
 const Contact = ({ handleSendMessageToPaulFromUser }) => {
@@ -9,7 +10,6 @@ const Contact = ({ handleSendMessageToPaulFromUser }) => {
   const [showUserSentAMessageToPaul, setshowUserSentAMessageToPaul] = useState(
     false
   );
-
   const submitMessageFromUser = async (event) => {
     event.preventDefault();
 
