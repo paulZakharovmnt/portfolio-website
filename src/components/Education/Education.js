@@ -18,8 +18,8 @@ const Education = () => {
           </div>
 
           <div>
-            <h3 className="education_race">Finance and Economics</h3>
-            <span className="education_specialty">Economist</span>
+            <h3 className="education_race">Master's degree</h3>
+            <span className="education_specialty"></span>
           </div>
         </div>
 
