@@ -38,7 +38,7 @@ const Main = ({ handleShowMessaheClick }) => {
             </div>
             <a
               download=""
-              href="https://drive.google.com/u/0/uc?id=16gfpr9TbJXPxbApNz7IwdLqZwOIa9m50&export=download"
+              href="https://drive.google.com/u/0/uc?id=1uMfim0ZE2penuMLjPPp1jJcGQu1-qNw2&export=download"
               className="btn home_button"
             >
               Download Resume
