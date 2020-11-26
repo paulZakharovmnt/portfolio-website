@@ -31,7 +31,10 @@ const Header = () => {
         </div>
         <TopMenu listOfLinks={listOfLinks} />
         <div className="">
-          <a href="#" className="nav_logo">
+          <a
+            href="https://paulzakharovmnt.github.io/portfolio-website/"
+            className="nav_logo"
+          >
             Paul
           </a>
         </div>

@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import sendEmail from "../../API/sendEmail";
-import MessageHasBeenSent from "../PopUp/MessageHasBeenSent";
 import "./Contact.css";
 
 const Contact = ({ handleSendMessageToPaulFromUser }) => {
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
-  const [showUserSentAMessageToPaul, setshowUserSentAMessageToPaul] = useState(
-    false
-  );
+
   const submitMessageFromUser = async (event) => {
     event.preventDefault();
 
@@ -59,13 +56,13 @@ const Contact = ({ handleSendMessageToPaulFromUser }) => {
             onChange={(event) => setUserMessage(event.target.value)}
           />
           <div className="submit-btn">
-            <a
+            <div
               className="button contact_button"
               onClick={submitMessageFromUser}
             >
               {" "}
               Send a Message{" "}
-            </a>
+            </div>
           </div>
         </form>
         <div>

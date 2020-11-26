@@ -19,7 +19,10 @@ const Works = () => {
                 <h3>Portfolio Website</h3>
                 <span> Current website that you are looking at right now</span>
               </div>
-              <a href="#" className="works_link">
+              <a
+                href="https://paulzakharovmnt.github.io/portfolio-website/"
+                className="works_link"
+              >
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
