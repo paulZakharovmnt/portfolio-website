@@ -20,8 +20,13 @@ const Skills = () => {
             <span className="skills_bar skills_react"></span>
           </div>
           <div className="skills_data">
+            <span className="skills_name">Redux </span>
+            <span className="skills_number">80% </span>
+            <span className="skills_bar skills_react"></span>
+          </div>
+          <div className="skills_data">
             <span className="skills_name">JavaScript </span>
-            <span className="skills_number">70% </span>
+            <span className="skills_number">80% </span>
             <span className="skills_bar skills_js"></span>
           </div>
           <div className="skills_data">

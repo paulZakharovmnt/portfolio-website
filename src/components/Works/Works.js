@@ -1,7 +1,7 @@
 import React from "react";
 import work1 from "../../img/WeatherApp.jpg";
 import work2 from "../../img/Portfolio.jpg";
-import work3 from "../../img/work4.jpg";
+import work3 from "../../img/JobApplications.jpg";
 import "./Works.css";
 
 const Works = () => {
@@ -26,6 +26,32 @@ const Works = () => {
           </div>
         </div>
         <div className="works_img">
+          <img src={work3} alt="" />
+          <div className="works_data">
+            <div className="works-project-info">
+              <div className="works_title">
+                <h3>Personal Job Application Database</h3>
+                <span>
+                  You don't like MS Excel? This website is made to make your job
+                  searching easier. The idea is to create a databse where you
+                  can store all job applications you have applied. Easy search,
+                  comfortable filters, easy UX/UI to update information about
+                  your job application.
+                </span>
+                <hr />
+                <span>The project is at 85% finished</span>
+              </div>
+              <a
+                href="https://paulzakharovmnt.github.io/job-search-list/"
+                className="works_link"
+              >
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="works_img">
           <img src={work1} alt="" />
           <div className="works_data">
             <div className="works-project-info">
@@ -45,32 +71,6 @@ const Works = () => {
               </div>
               <a
                 href="https://paulzakharovmnt.github.io/weatherApp/"
-                className="works_link"
-              >
-                <i className="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="works_img">
-          <img src={work3} alt="" />
-          <div className="works_data">
-            <div className="works-project-info">
-              <div className="works_title">
-                <h3>Todo Application</h3>
-                <span>
-                  {" "}
-                  Small application to create todo-list (or what you should buy
-                  in the store).
-                </span>
-                <hr />
-                <span>
-                  Now it is 50% finished. There is only basic functions with no
-                  styles and interesting features. Will be finished soon
-                </span>
-              </div>
-              <a
-                href="https://paulzakharovmnt.github.io/todo-app/"
                 className="works_link"
               >
                 <i className="fas fa-external-link-alt"></i>
