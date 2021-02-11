@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.6ede9a5b.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.b6ac391b.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.b6ac391b.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.cb92aab9.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.cb92aab9.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.8cd05721.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.8cd05721.js.map",
-    "static/js/2.e1499e86.chunk.js": "/portfolio-website/static/js/2.e1499e86.chunk.js",
-    "static/js/2.e1499e86.chunk.js.map": "/portfolio-website/static/js/2.e1499e86.chunk.js.map",
+    "static/js/2.07279bbe.chunk.js": "/portfolio-website/static/js/2.07279bbe.chunk.js",
+    "static/js/2.07279bbe.chunk.js.map": "/portfolio-website/static/js/2.07279bbe.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.b272edb600bba925dde5c0d4f582cbd0.js": "/portfolio-website/precache-manifest.b272edb600bba925dde5c0d4f582cbd0.js",
+    "precache-manifest.2b17e48feb23332573217aada7131d58.js": "/portfolio-website/precache-manifest.2b17e48feb23332573217aada7131d58.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/main.6ede9a5b.chunk.css.map": "/portfolio-website/static/css/main.6ede9a5b.chunk.css.map",
-    "static/js/2.e1499e86.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.e1499e86.chunk.js.LICENSE.txt",
+    "static/js/2.07279bbe.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.07279bbe.chunk.js.LICENSE.txt",
     "static/media/JobApplications.jpg": "/portfolio-website/static/media/JobApplications.e97571f1.jpg",
     "static/media/Portfolio.jpg": "/portfolio-website/static/media/Portfolio.e3d8755d.jpg",
+    "static/media/Streltsov.jpg": "/portfolio-website/static/media/Streltsov.ebc47b2f.jpg",
     "static/media/WeatherApp.jpg": "/portfolio-website/static/media/WeatherApp.ea604922.jpg",
     "static/media/me2.jpg": "/portfolio-website/static/media/me2.5c3a9601.jpg",
     "static/media/photo2.png": "/portfolio-website/static/media/photo2.900bf4c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8cd05721.js",
-    "static/js/2.e1499e86.chunk.js",
+    "static/js/2.07279bbe.chunk.js",
     "static/css/main.6ede9a5b.chunk.css",
-    "static/js/main.b6ac391b.chunk.js"
+    "static/js/main.cb92aab9.chunk.js"
   ]
 }
