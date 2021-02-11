@@ -2,6 +2,7 @@ import React from "react";
 import work1 from "../../img/WeatherApp.jpg";
 import work2 from "../../img/Portfolio.jpg";
 import work3 from "../../img/JobApplications.jpg";
+import work4 from "../../img/Streltsov.jpg";
 import "./Works.css";
 
 const Works = () => {
@@ -11,6 +12,33 @@ const Works = () => {
       <h2 className="section-title">Recent Works</h2>
 
       <div className="works_container bd-grid">
+        <div className="works_img">
+          <img src={work4} alt="" />
+          <div className="works_data">
+            <div className="works-project-info">
+              <div className="works_title">
+                <h3>Streltsov online pen shop</h3>
+                <span>
+                  {" "}
+                  Online e-commerce website. The client wanted to make new
+                  website for his unique titanium pens. The idea was to create
+                  modern fully responsive website with integrated admin panel
+                  where he will have full control. The frontend part is almost
+                  finished (80%) and made with React, Redux. The backend part
+                  will be based in Firebase. So this is not fully finished
+                  project right now. I just shared it to show the current
+                  project I'm working on.
+                </span>
+              </div>
+              <a
+                href="https://paulzakharovmnt.github.io/streltsov-website/"
+                className="works_link"
+              >
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="works_img">
           <img src={work2} alt="" />
           <div className="works_data">
