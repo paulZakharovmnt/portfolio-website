@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="footer-icons">
           <a
             className="footer-link"
-            href="https://www.facebook.com/people/Paul-Zakharov/100004351425520"
+            // href="https://www.facebook.com/people/Paul-Zakharov/100004351425520"
           >
             <i className="fab fa-facebook"></i>
           </a>
           <a
             className="footer-link"
-            href="https://www.instagram.com/supersexykoala/"
+            // href="https://www.instagram.com/supersexykoala/"
           >
             <i className="fab fa-instagram"></i>
           </a>

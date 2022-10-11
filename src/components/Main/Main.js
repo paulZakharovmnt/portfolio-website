@@ -14,8 +14,8 @@ const Main = ({ handleShowMessaheClick }) => {
             <div className="home_img">
               <img className="home_img" src={photo2} alt="" />
             </div>
-            <h1 className="home_title">Paul Zakharov</h1>
-            <span className="home_profession">FrontEnd Developer</span>
+            <h1 className="home_title">Pavel Zakharov</h1>
+            <span className="home_profession">Frontend Developer</span>
             <div className="home_social">
               <a
                 href="https://www.linkedin.com/in/paulzakharov/"
@@ -38,7 +38,7 @@ const Main = ({ handleShowMessaheClick }) => {
             </div>
             <a
               download=""
-              href="https://drive.google.com/u/0/uc?id=1GBwbyteRiLp9P8BDYj-Lia7IUJUExF8c&export=download"
+              // href="https://drive.google.com/u/0/uc?id=1GBwbyteRiLp9P8BDYj-Lia7IUJUExF8c&export=download"
               className="btn home_button"
             >
               Download Resume
